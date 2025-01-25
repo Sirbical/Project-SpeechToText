@@ -1,0 +1,2 @@
+root: C:\Project\IELTS_Test_Simulation\nvm
+path: C:\nvm4w\nodejs

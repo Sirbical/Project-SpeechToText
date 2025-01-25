@@ -1,0 +1,16 @@
+"scripts": {
+  "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+  "start-backend": "cd backend && npm start",
+  "start-frontend": "cd frontend && npm start"
+}
+
+{
+    "name": "IELTS_Test_Simulation",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.1"
+    }
+}
